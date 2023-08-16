@@ -5,38 +5,155 @@ body {
     background-position: top center;
 }
 
+header {
+    padding: 50px; 
+}
+
+footer {
+    vertical-align: bottom;
+}
+
+footer a {
+    padding: 0px 15px;
+    color: rgba(255, 255, 255, 0);
+}
+
+footer img{
+    
+    padding: 30px;
+    margin: auto;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    
+    margin-top: 30px;
+    transition: all 0.2s;
+
+}
+
+footer img:hover{
+    border: 1px solid rgba(255, 255, 255, 0.863);
+}
+
+#dc {
+    height:  39.35px;
+    padding: 36px;
+}
+
+#git {
+    text-align: center;
+    height:  53.35px;
+}
+
 * { 
-    color: white;
+    
+    text-align: center;
+    padding: 0px; 
+    color: #FFFFFF;
     font-size: 30px;
-    padding: 0px;
     font-family: 'Source Sans 3', sans-serif;
 }
 
-
-#list * {
-    text-align: center;
-    display: block;
-}
-
-#listP {
-    display: inline;
-}
-
-.hud * {
-    margin: 40px, auto, 0px, auto;
+#desc {
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .hud {
 
-    text-align: center;
-    margin: 40px, auto, 0px, auto;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
 
 }
 
 .hud img {
-    width: 400px;
+
+    margin: auto;
+    height: 300px;
+
+    margin-top: 30px;
+
+}
+
+/*
+.hud * {
+    margin: 40px auto 0px auto;
+    border: 1px solid #FFFFFF;
+}
+
+.hud img {
+
+    display: inline;
+    width: 300px;
+    height: 300px;
+    border-radius: 100000px;
+
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+
 }
  
-.hud h1 {
+.hud p {
+
+    display: inline;
+    
+   
+    font-weight: bold;
     font-size: 50px;
+
+}
+
+.hud2 {
+
+    display: inline;
+    padding: 50px 20px 0px;
+    vertical-align: top center;
+
+   
+
+}
+*/
+
+.hud ul * {
+    margin: auto;
+}
+
+.hud ul {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.hud ul li {
+    list-style: none;
+}
+
+.hud ul li a {
+
+
+
+    display: flex;
+    justify-content: center;
+
+    /* padding: 30px, 20px; */
+
+    padding: 30px;
+    width: 1000x;
+    background-color: rgba(255, 255, 255, 0.06);
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+
+
+    transition: all 0.25s;
+}
+
+.hud ul li a:hover {
+    padding: 30px 50px; 
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.01);
 }
